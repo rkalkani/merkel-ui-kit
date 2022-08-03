@@ -1,1 +1,1 @@
-# UI-kit
+# ui-kit
