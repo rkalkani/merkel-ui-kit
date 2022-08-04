@@ -1,0 +1,25 @@
+{
+  "exclude": ["node_modules", "dist", "jest-config.js"],
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2015",
+    "lib": ["DOM", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "allowJs": true,
+    "baseUrl": "./src",
+    "forceConsistentCasingInFileNames": true,
+    // Added
+    "declaration": true,
+    "declarationDir": "types",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true,
+  }
+}

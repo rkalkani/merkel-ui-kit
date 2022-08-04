@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": ["src", "tests"],
+  "exclude": ["public", ".cache", "node_modules", "dist", ".storybook/main.js"],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["src"]
+    }
+  }
+}
