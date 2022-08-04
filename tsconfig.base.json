@@ -6,20 +6,24 @@
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "Node",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "noEmitOnError": true,
     "allowJs": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "forceConsistentCasingInFileNames": true,
     // Added
+    "useDefineForClassFields": true,
     "declaration": true,
     "declarationDir": "types",
     "sourceMap": true,
     "outDir": "dist",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
+    // "emitDeclarationOnly": true,
+    // "isolatedModules": true,
+    "noEmit": true,
+    "types": ["vite/client"]
   }
 }

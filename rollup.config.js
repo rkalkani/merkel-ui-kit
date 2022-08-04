@@ -7,7 +7,7 @@ import json from '@rollup/plugin-json';
 // import alias, { Alias } from '@rollup/plugin-alias';
 import replace from '@rollup/plugin-replace';
 // import visualizer from 'rollup-plugin-visualizer';
-import dts from "rollup-plugin-dts";
+// import dts from "rollup-plugin-dts";
 import postcss from "rollup-plugin-postcss";
 // import postcssModules from 'postcss-modules';
 
@@ -71,9 +71,12 @@ export default [{
   ],
   plugins,
   external: externals
-}, {
-    input: path.join(basePath, 'esm/types/index.d.ts'),
-    output: [{ file: "dist/index.d.ts", format: "esm" }],
-    plugins: [dts()],
-    external: [/\.(css|scss|sass|less)$/],
-}]
+}
+,
+// {
+//     input: path.join(basePath, 'esm/types/index.d.ts'),
+//     output: [{ file: "dist/index.d.ts", format: "esm" }],
+//     plugins: [dts()],
+//     external: [/\.(css|scss|sass|less)$/],
+// }
+]
