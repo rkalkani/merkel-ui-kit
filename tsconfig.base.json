@@ -2,8 +2,9 @@
   "exclude": ["node_modules", "dist", "jest-config.js"],
   "compilerOptions": {
     "strict": true,
-    "target": "ES2015",
-    "lib": ["DOM", "ESNext"],
+    "baseUrl": "./src",
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "ESNext",
     "moduleResolution": "Node",
     "jsx": "react-jsx",
@@ -12,7 +13,6 @@
     "skipLibCheck": true,
     "noEmitOnError": true,
     "allowJs": true,
-    "baseUrl": ".",
     "forceConsistentCasingInFileNames": true,
     // Added
     "useDefineForClassFields": true,

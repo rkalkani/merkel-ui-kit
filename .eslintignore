@@ -6,3 +6,8 @@ public
 .cache
 .eslintrc.js
 *.d.ts
+
+node_modules
+.git
+.vscode
+tailwind.config.js

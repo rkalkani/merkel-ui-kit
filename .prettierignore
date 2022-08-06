@@ -1,1 +1,8 @@
 *.d.ts
+dist
+node_modules
+.git
+.vscode
+
+.storybook/tailwind.css
+src/stories/tailwind.js
