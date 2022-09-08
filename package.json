@@ -1,6 +1,6 @@
 {
   "name": "@merklescience/ui",
-  "version": "0.0.1-0",
+  "version": "0.0.1-1",
   "description": "Merklescience ui kit for react",
   "module": "dist/esm/index.js",
   "files": [
