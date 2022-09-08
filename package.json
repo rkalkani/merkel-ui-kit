@@ -27,7 +27,7 @@
     "storybook:build": "npm run build-storybook",
     "build-storybook": "build-storybook",
     "tailwincss:build": "node bin/general-tailwind-theme.js && prettier --write src/stories/tailwind.js && tailwindcss -i src/index.css -o .storybook/tailwind.css",
-    "publish": "run-s validate build && npm publish @merklescience/ui@$(cat package.json | jq -r \".version\")-$(git describe --always)",
+    "publish": "run-s validate build && npm publish @merklescience/ui@$(cat package.json | jq -r \".version\")",
     "prepare": "husky install"
   },
   "browserslist": {
